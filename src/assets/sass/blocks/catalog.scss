@@ -1,0 +1,33 @@
+.catalog {
+    padding: 4rem 0;
+}
+
+.catalog__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    @media (max-width: 50rem) {
+        padding: 0 1rem;
+    }
+}
+
+.catalog__title--br {
+
+    @media (max-width: 50rem) {
+        display: block;
+    }
+
+}
+
+.catalog__container {
+    margin: 2rem 0;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.catalog__btn {
+    text-align: center;
+}

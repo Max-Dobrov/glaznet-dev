@@ -1,0 +1,10 @@
+.logo {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.logo__image {
+    display: block;
+    height: 2.5rem;
+}

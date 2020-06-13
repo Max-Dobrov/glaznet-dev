@@ -1,0 +1,57 @@
+.signboard {
+    margin-bottom: 3rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 33rem) {
+        margin-bottom: 1rem;
+    }
+}
+
+.signboard__title {
+    margin-bottom: 1.5rem;
+
+    font-family: 'Galiver sans';
+    font-size: 3.3rem;
+    font-weight: 400;
+
+    @media (max-width: 103rem) {
+        font-size: 3rem;
+    }
+
+    @media (max-width: 89rem) {
+        font-size: 2rem;
+    }
+
+    @media (max-width: 29rem) {
+        font-size: 1.7rem;
+    }
+}
+
+.signboard__btn {
+
+
+}
+
+.signboard__insta-container {
+    display: flex;
+}
+
+.signboard__link {
+    color: $white;
+    text-decoration: none;
+}
+
+.signboard__link-title {
+    margin-left: 0.5rem;
+
+    font-size: 2rem;
+    text-transform: uppercase;
+
+    @media (max-width: 29rem) {
+        font-size: 1.6rem;
+    }
+}
+

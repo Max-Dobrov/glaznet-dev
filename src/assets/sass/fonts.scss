@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Galiver Sans';
+    src: local('Galiver Sans Bold'), local('Galiver-Sans-Bold'),
+        url('GaliverSans-Bold.woff2') format('woff2'),
+        url('GaliverSans-Bold.woff') format('woff'),
+        url('GaliverSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+font-family: 'Galiver Sans';
+    src: local('Galiver Sans Regular'), local('Galiver-Sans-Regular'),
+        url('GaliverSans.woff2') format('woff2'),
+        url('GaliverSans.woff') format('woff'),
+        url('GaliverSans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: local('Century Gothic Regular'), local('Century-Gothic-Regular'),
+        url('CenturyGothic.woff2') format('woff2'),
+        url('CenturyGothic.woff') format('woff'),
+        url('CenturyGothic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: local('Century Gothic Bold'), local('Century-Gothic-Bold'),
+        url('CenturyGothic-Bold.woff2') format('woff2'),
+        url('CenturyGothic-Bold.woff') format('woff'),
+        url('CenturyGothic-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+

@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 51.2rem) {
+        margin-top: 1rem;
+
+    }
+}
+
+.nav__item {
+    margin-right: 2rem;
+
+    @media (max-width: 51.2rem) {
+        margin-right: 4rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+    }
+}
+
+.nav__link {
+    font-size: .9rem;
+    color: $white;
+
+    text-decoration: none;
+    text-transform: uppercase;
+}

@@ -1,0 +1,34 @@
+.delivery__title-container {
+    margin-bottom: 2rem;
+}
+
+.delivery__title {
+    font-family: 'Galiver sans';
+    font-size: 2.3rem;
+    font-weight: 400;
+
+    @media (max-width: 89rem) {
+        font-size: 2rem;
+    }
+
+    @media (max-width: 40rem) {
+        font-size: 1.5rem;
+    }
+}
+
+.delivery__text {
+    font-size: 1.3rem;
+    font-weight: 400;
+
+    @media (max-width: 89rem) {
+        font-size: 1.1rem;
+    }
+
+    @media (max-width: 40rem) {
+        font-size: 1rem;
+    }
+
+    @media (max-width: 30rem) {
+        font-size: 0.8rem;
+    }
+}

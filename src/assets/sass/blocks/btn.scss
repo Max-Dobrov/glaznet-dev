@@ -1,0 +1,27 @@
+.btn {
+    display: inline-block;
+
+    padding: 1.25rem 4.6rem 1.2rem;
+
+    border: 4px $white solid;
+
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: $white;
+    text-transform: none;
+    text-decoration: none;
+
+    transition-duration: 0.2s;
+
+    &:hover {
+        background-color: $white;
+        color: $gray;
+        cursor: pointer;
+    }
+
+    &--signboard {
+        @media (max-width: 29rem) {
+            padding: 1rem 2.6rem 1rem;
+        }
+    }
+}

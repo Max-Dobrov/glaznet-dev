@@ -1,0 +1,72 @@
+.hightlight {
+    width: 100%;
+    height: 33.3rem;
+
+    position: relative;
+
+    background: $gray url(../img/highlight.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.hightlight__message {
+    max-width: 38rem;
+    max-height: 11rem;
+    margin: auto;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 1.8rem;
+
+    text-align: center;
+
+    background-color: $gray;
+
+    @media (max-width: 37rem) {
+        max-width: 30rem;
+    }
+
+    @media (max-width: 32rem) {
+        max-width: 20rem;
+    }
+
+
+}
+
+.hightlight__title {
+    margin-top: -1rem;
+
+    font-family: 'Galiver sans';
+    font-size: 5rem;
+    font-weight: 700;
+
+    @media (max-width: 37rem) {
+        margin-top: 0.1rem;
+
+        font-size: 3.6rem;
+    }
+
+    @media (max-width: 32rem) {
+        font-size: 2.3rem;
+    }
+}
+
+.hightlight__subtitle {
+    margin-bottom: 1.6rem;
+
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    @media (max-width: 37rem) {
+        margin-bottom: 0.6rem;
+
+        font-size: 2.3rem;
+    }
+
+    @media (max-width: 32rem) {
+        font-size: 1.8rem;
+    }
+}
+
+

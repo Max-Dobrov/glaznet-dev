@@ -1,0 +1,76 @@
+.card {
+    max-width: 26.6rem;
+    min-height: 20rem;
+    margin: 3rem 1rem;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @media (max-width: 50rem) {
+        margin: 2.5rem 2rem;
+    }
+
+    @media (max-width: 24rem) {
+        margin: 2rem 1rem;
+    }
+}
+
+.card__link {
+    color: $white;
+    text-decoration: none;
+}
+
+.card__image-wrapper {
+    max-height: 18rem;
+    margin-bottom: 2rem;
+
+    overflow: hidden;
+
+    @media (max-width: 50rem) {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.card__image {
+    display: block;
+    height: auto;
+    max-width: 100%;
+
+    transform: scale(1.4);
+
+    @media (max-width: 50rem) {
+        margin-bottom: 1rem;
+    }
+
+    @media (max-width: 30rem) {
+        max-width: 22rem;
+    }
+
+    @media (max-width: 24rem) {
+        max-width: 19rem;
+    }
+
+
+}
+
+.card__name {
+    margin-bottom: 1rem;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card__name--uppercase {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card__price {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
